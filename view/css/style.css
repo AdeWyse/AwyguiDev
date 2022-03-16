@@ -1,0 +1,17 @@
+:root{
+    --white: #FAFAFA;
+    --black: #130019;
+    --white-Purple: #F4EEF6;
+    --lavander: #A27BB8;
+    --purple: #480661;
+}
+
+body{
+    background-color: var(--white);
+    font-family: 'Roboto Mono', monospace;
+}
+
+a{
+    text-decoration: none;
+    color: var(--purple);
+}
