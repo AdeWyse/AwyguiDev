@@ -12,6 +12,8 @@
 	<link rel="stylesheet" href="/./view/css/reset-normalize.css">
 	<link rel="stylesheet" href="/./view/css/style.css">
 	<link rel="stylesheet" href="/./view/css/header.css">
+	<link rel="stylesheet" href="/./view/css/footer.css">
+	<script src="https://kit.fontawesome.com/8aed76c6c9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -29,9 +31,10 @@
         </nav>
 	    <nav class="menu-socials">
 	        <ul class="menu-socials-list">
-		        <li><a href="index.php">YT</a></li>
-		        <li><a href="index.php">GitHub</a></li>
-		        <li><a href="index.php">IG</a></li>
+		        <li><a href="index.php"><i class="fa fa-youtube"></i></a></li>
+		        <li><a href="index.php"><i class="fa fa-github"></i></a></li>
+		        <li><a href="index.php"><i class="fa fa-instagram"></i></a></li>
+		        <li><a href="index.php"><i class="fa fa-linkedin"></i></a></li>
 	        </ul>
         </nav>
     </div>

@@ -1,0 +1,40 @@
+.foot{
+    background-color: var(--lavander);
+    height: 13em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.footer-links{
+    display: grid;
+    grid-column: 1;
+    margin: auto;
+}
+
+.rights{
+    display: grid;
+    grid-column: 2;
+    margin: auto;
+}
+
+.footer-links-title{
+    color: var(--black);
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.itenLink{
+    margin-bottom: 0.2em;
+}
+
+.footer-extra{
+    display: grid;
+    grid-column: 3;
+    margin: auto;
+}
+
+.footer-socials-list li{
+    color: var(--black);
+    margin-bottom: 0.5em;
+}
