@@ -2,26 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="182aa629-fc4a-4e2b-89b7-6ce5468f29aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/shared/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base.xcf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/createDatabase.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home.xcf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hp.xcf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socialMediaPresence.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/Message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/Project.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/shared/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/shared/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/../../../../intranet/dist/composer.json</pharConfigPath>
     <execution>
       <executable path="composer" />
@@ -122,7 +122,6 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -141,7 +140,16 @@
       <workItem from="1647440272187" duration="8535000" />
       <workItem from="1647515544690" duration="15449000" />
       <workItem from="1647601859142" duration="1189000" />
+      <workItem from="1647604991201" duration="7738000" />
     </task>
+    <task id="LOCAL-00001" summary="Creating header and footer.">
+      <created>1647605236694</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647605236694</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +180,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Creating header and footer." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating header and footer." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
