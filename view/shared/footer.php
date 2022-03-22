@@ -17,6 +17,7 @@ namespace bp\public\Shared;
 		    <p>All rights reserved AwyguiDev 2022.</p>
 		    <a class="linkLogin" id="linkLog" href="/login">Login</a>
 		    <a class="linkManagement dontDisplay" id="linkMan" href="/management">Management</a>
+		    <a class="linkLogout dontDisplay" id="logout" href="/home?=logout">Logout</a>
 	    </div>
 	    <div class="footer-extra">
 		    <nav class="footer-socials">
@@ -32,13 +33,17 @@ namespace bp\public\Shared;
 </body>
 <script src="/scripts/jquery.js"></script>
 <?php
-	if($_SESSION != null){
+
+use bp\source\Model\LoginControl;
+
+if($_SESSION != null){
 		if($_SESSION['session'] == '1'){
 			?>
 			<script>
 				console.log('here');
 				$('#linkLog').addClass('dontDisplay');
 				$('#linkMan'). removeClass('dontDisplay');
+				$('#logout'). removeClass('dontDisplay');
 			</script>
 			<?php
 		}else{
@@ -47,6 +52,7 @@ namespace bp\public\Shared;
 				console.log('here');
 				$('#linkLog').removeClass('dontDisplay');
 				$('#linkMan'). addClass('dontDisplay');
+				$('#logout'). addClass('dontDisplay');
 			</script>
 			<?php
 		}
@@ -60,5 +66,10 @@ namespace bp\public\Shared;
 		<?php
 	}
 
+
+if (isset($_GET['logout'])){
+	$log = new LoginControl();
+	$log->ExcludeLoggedSession();
+}
 ?>
 </html>

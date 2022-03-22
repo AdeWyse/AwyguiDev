@@ -23,9 +23,11 @@ class LoginControl
 		foreach ($users as $id => $user){
 			if($user->getUsername() == $username && password_verify($pass, $user->getRawPassword())){
 				$this->CreateLoggedSession($user);
+                return true;
 			}
 		}
-        return $users;
+        return false;
+
     }
 
 	function CreateLoggedSession($user){

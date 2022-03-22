@@ -19,6 +19,9 @@ use bp\source\Model\LoginControl as LoginControl;
                 <labelclass="loginLabels">Password</label>
                 <input type="password"  id="password" name="password" class="loginInputField">
             </div>
+	        <div class="loginInputItem">
+		        <p class="dontDisplay" id="loginError">Username or password incorrect</p>
+	        </div>
             <div class="loginInputField">
                 <button type="submit" class="btn login" value="Login">Login</button>
             </div>
@@ -28,7 +31,16 @@ use bp\source\Model\LoginControl as LoginControl;
 <?php
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 	$login = new LoginControl();
-	$login->LoginVerification();
+	$status = $login->LoginVerification();
+	if($status == true){
+		header("Location: /management");
+	}else{
+		?>
+			<script>
+				$('#loginError').removeClass('.dontDisplay');
+			</script>
+		<?php
+	}
 }
 ?>
 <?php
