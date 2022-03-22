@@ -38,3 +38,11 @@ a{
     color: var(--purple);
     cursor: pointer;
 }
+
+.dontDisplay{
+    display: none;
+}
+
+.display{
+    display: inline;
+}

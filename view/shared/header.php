@@ -1,5 +1,6 @@
 <?php
 namespace bp\public\Shared;
+session_start();
 ?>
 <!DOCTYPE html>
 
@@ -24,11 +25,11 @@ namespace bp\public\Shared;
 	    <h1 class="title-Site"><a><span class="title-Site1">Awygui</span><span class="title-Site2">Dev</span></a></h1>
         <nav class="menu-links">
             <ul class="menu-links-list">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="index.php">Posts</a></li>
-	            <li><a href="index.php">About</a></li>
-                <li><a href="index.php">Portifolio</a></li>
-	            <li><a href="index.php">Contact</a></li>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/home">Posts</a></li>
+	            <li><a href="/home">About</a></li>
+                <li><a href="/home">Portifolio</a></li>
+	            <li><a href="/home">Contact</a></li>
             </ul>
         </nav>
 	    <nav class="menu-socials">

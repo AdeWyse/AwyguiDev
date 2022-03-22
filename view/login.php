@@ -28,7 +28,7 @@ use bp\source\Model\LoginControl as LoginControl;
 <?php
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 	$login = new LoginControl();
-	$login->loginVerification();
+	$login->LoginVerification();
 }
 ?>
 <?php

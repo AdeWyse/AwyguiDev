@@ -15,8 +15,8 @@ namespace bp\public\Shared;
 	    </nav>
 	    <div class="rights">
 		    <p>All rights reserved AwyguiDev 2022.</p>
-		    <p>Login</p>
-		    <p>Management</p>
+		    <a class="linkLogin" id="linkLog" href="/login">Login</a>
+		    <a class="linkManagement dontDisplay" id="linkMan" href="/management">Management</a>
 	    </div>
 	    <div class="footer-extra">
 		    <nav class="footer-socials">
@@ -31,4 +31,34 @@ namespace bp\public\Shared;
 </footer>
 </body>
 <script src="/scripts/jquery.js"></script>
+<?php
+	if($_SESSION != null){
+		if($_SESSION['session'] == '1'){
+			?>
+			<script>
+				console.log('here');
+				$('#linkLog').addClass('dontDisplay');
+				$('#linkMan'). removeClass('dontDisplay');
+			</script>
+			<?php
+		}else{
+			?>
+			<script>
+				console.log('here');
+				$('#linkLog').removeClass('dontDisplay');
+				$('#linkMan'). addClass('dontDisplay');
+			</script>
+			<?php
+		}
+	}else{
+		?>
+		<script>
+			console.log('here');
+			$('#linkLog').removeClass('dontDisplay');
+			$('#linkMan'). addClass('dontDisplay');
+		</script>
+		<?php
+	}
+
+?>
 </html>

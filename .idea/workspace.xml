@@ -1,46 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="182aa629-fc4a-4e2b-89b7-6ce5468f29aa" name="Changes" comment="Creating database connection and login basic verification.">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/configRoutes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scripts/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scripts/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ControllerHtml.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/InterfaceRequisitionController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/boing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/Database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/LoginControl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/components/jquery/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/components/jquery/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/components/jquery/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/components/jquery/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/components/jquery/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/components/jquery/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/components/jquery/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/components/jquery/jquery.slim.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/components/jquery/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="182aa629-fc4a-4e2b-89b7-6ce5468f29aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/bp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/managment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scripts/checkSession.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Management.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/management.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/css/reset-normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/reset-normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/configRoutes.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/configRoutes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/LoginControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/LoginControl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/shared/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/shared/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/shared/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/shared/header.php" afterDir="false" />
     </list>
@@ -57,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -137,10 +113,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Controller" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.phpOptions" />
@@ -167,14 +145,23 @@
       <workItem from="1647621687894" duration="4806000" />
       <workItem from="1647861010558" duration="19169000" />
       <workItem from="1647947347540" duration="4326000" />
-      <workItem from="1647951857816" duration="5572000" />
+      <workItem from="1647951857816" duration="11280000" />
     </task>
+    <task id="LOCAL-00001" summary="Creating database connection and login basic verification.">
+      <created>1647957629585</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647957629585</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Creating database connection and login basic verification." />
     <option name="LAST_COMMIT_MESSAGE" value="Creating database connection and login basic verification." />
