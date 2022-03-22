@@ -1,4 +1,6 @@
-<?php ?>
+<?php
+namespace bp\public\Shared;
+?>
 <footer>
     <div class="foot">
 	    <nav class="footer-links">
@@ -28,3 +30,5 @@
     </div>
 </footer>
 </body>
+<script src="/scripts/jquery.js"></script>
+</html>

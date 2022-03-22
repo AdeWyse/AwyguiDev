@@ -1,6 +1,6 @@
 <?php
 
-namespace bp\Entities;
+namespace bp\source\Entities;
 
 class User{
     private string $username;

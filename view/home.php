@@ -1,9 +1,10 @@
 <?php
-require_once __DIR__.'/shared/header.php'
+require_once __DIR__.'/shared/header.php';
 ?>
-<link rel="stylesheet" href="/./view/css/home.css">
 <main>
-    <div class="middle">
+	<link rel="stylesheet" href="/css/home.css">
+
+	<div class="middle">
         Boing Boing Boing
     </div>
     

@@ -1,7 +1,9 @@
-<?php ?>
+<?php
+namespace bp\public\Shared;
+?>
 <!DOCTYPE html>
 
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>AwyguiDev</title>
@@ -9,10 +11,10 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=Quantico:ital,wght@0,400;0,700;1,700&family=Roboto+Mono:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="/./view/css/reset-normalize.css">
-	<link rel="stylesheet" href="/./view/css/style.css">
-	<link rel="stylesheet" href="/./view/css/header.css">
-	<link rel="stylesheet" href="/./view/css/footer.css">
+	<link rel="stylesheet" href="/../css/reset-normalize.css">
+	<link rel="stylesheet" href="/../css/style.css">
+	<link rel="stylesheet" href="/../css/header.css">
+	<link rel="stylesheet" href="/../css/footer.css">
 	<script src="https://kit.fontawesome.com/8aed76c6c9.js" crossorigin="anonymous"></script>
 </head>
 

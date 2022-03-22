@@ -6,4 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'bp\\source\\' => array($baseDir . '/src'),
+    'bp\\public\\' => array($baseDir . '/public'),
 );
