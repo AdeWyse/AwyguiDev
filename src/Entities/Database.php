@@ -3,6 +3,7 @@
 namespace bp\source\Entities;
 
 use bp\source\Entities\User;
+use bp\source\Entities\Post;
 use PDO;
 
 class Database
@@ -59,5 +60,37 @@ class Database
             }
         }
         return null;
+    }
+
+    public function getPosts(){
+        $posts = $this->db->query("SELECT * FROM post");
+        $postsObj = array();
+        foreach ($posts->fetchAll() as $id => $post){
+            $postsObj[$id] = new Post($post['id'], $post['title'], $post['content'], $post['mainImage'], $post['user']);
+        }
+        return $postsObj;
+    }
+
+    public function getPost($id){
+        $posts = $this->db->query("SELECT * FROM post");
+        foreach ($posts->fetchAll() as $post){
+            if($post['id'] === $id){
+                return new Post($post['id'], $post['title'], $post['content'], $post['mainImage'], $post['user']);;
+            }
+        }
+        return null;
+    }
+
+    public function setPost(Post $post){
+        $data = [
+            'title' => $post->getTitle(),
+            'content' => $post->getContent(),
+            'mainImage' => $post->getMainImage(),
+            'user' => $post->getUser()->getUsername(),
+        ];
+        $sql = "INSERT INTO post (title, content, mainImage, user) VALUES (:title, :content, :mainImage, :user)";
+        $stmt= $this->db->prepare($sql);
+        $stmt->execute($data);
+
     }
 }

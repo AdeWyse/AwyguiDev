@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="182aa629-fc4a-4e2b-89b7-6ce5468f29aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/css/management.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/newPostProject.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/NewPost.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/PostControl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/newPost.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/newProject.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/LoginControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/LoginControl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/shared/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/shared/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/configRoutes.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/configRoutes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/createDatabase.sql" beforeDir="false" afterPath="$PROJECT_DIR$/config/createDatabase.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/managment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/management.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/management.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -106,7 +116,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Controller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/view" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.phpOptions" />
@@ -133,7 +143,9 @@
       <workItem from="1647621687894" duration="4806000" />
       <workItem from="1647861010558" duration="19169000" />
       <workItem from="1647947347540" duration="4326000" />
-      <workItem from="1647951857816" duration="12370000" />
+      <workItem from="1647951857816" duration="12596000" />
+      <workItem from="1648034358754" duration="15988000" />
+      <workItem from="1648120202460" duration="2016000" />
     </task>
     <task id="LOCAL-00001" summary="Creating database connection and login basic verification.">
       <created>1647957629585</created>
@@ -149,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647971024330</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Login and logout redirection.">
+      <created>1647972304834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647972304834</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +179,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Creating database connection and login basic verification." />
     <MESSAGE value="Basic logged restriction." />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic logged restriction." />
+    <MESSAGE value="Login and logout redirection." />
+    <option name="LAST_COMMIT_MESSAGE" value="Login and logout redirection." />
   </component>
 </project>

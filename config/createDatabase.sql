@@ -6,17 +6,16 @@ CREATE TABLE user(
 );
 
 CREATE TABLE  post(
-    id int primary key,
+    id int primary key auto_increment,
     title varchar(255) not null,
     content text not null,
     mainImage text,
-    images text,
     user varchar(255),
      FOREIGN KEY (user) REFERENCES user(username)
 );
 
 CREATE TABLE project(
-    id int primary key,
+    id int primary key auto_increment,
     title varchar(255) not null,
     content varchar(255) not null,
     mainImage text ,
@@ -25,7 +24,7 @@ CREATE TABLE project(
 
 CREATE TABLE  message
 (
-    id int primary key,
+    id int primary key auto_increment,
     name varchar(255),
     email varchar(255),
     subject text,

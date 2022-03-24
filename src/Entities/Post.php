@@ -1,22 +1,24 @@
 <?php
- namespace bp\Entities;
+ namespace bp\source\Entities;
 
  class Post{
      private int $id;
      private string $title;
      private string $content;
      private string $mainImage;
-     private string $user;
+     private User $user;
      /**
       * @param int $id
       * @param string $title
       * @param string $content
       * @param string $mainImage
-      * @param string $user
+      * @param User $user
       */
-     public function __construct(int $id, string $title, string $content, string $mainImage, string $user)
+     public function __construct($id, string $title, string $content, string $mainImage, User $user)
      {
-         $this->id = $id;
+         if($id != null){
+             $this->id = $id;
+         }
          $this->title = $title;
          $this->content = $content;
          $this->mainImage = $mainImage;
@@ -90,7 +92,7 @@
      /**
       * @return string
       */
-     public function getUser(): string
+     public function getUser(): User
      {
          return $this->user;
      }

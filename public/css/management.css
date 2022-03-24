@@ -1,0 +1,44 @@
+.middle{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto;
+    grid-gap: 2em;
+}
+
+.postCreate{
+    grid-column: 1;
+    grid-row: 1;
+}
+.postList{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.messageList{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.projectCreate{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.projectList{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.card{
+    height: 3em;
+    text-align: center;
+    padding-top: 1.5em;
+}
+
+.card:hover{
+    background-color: var(--lavander);
+
+}
+a{
+    color: var(--black);
+}

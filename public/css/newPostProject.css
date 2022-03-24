@@ -1,0 +1,31 @@
+.newPostForm{
+    margin: 2em;
+    display:flex;
+    flex-direction: column;
+}
+
+.item{
+    margin: 0.5em;
+}
+
+.labels{
+    font-weight: bold;
+}
+
+#title, #mainImage{
+    height: 2em;
+}
+
+.cretePostBtn{
+    display: flex;
+    justify-content: right;
+}
+
+.btn{
+    margin: 1em;
+    margin-right: 0;
+}
+
+.textAreaInput{
+    background-color: var(--white);
+}
