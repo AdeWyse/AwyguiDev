@@ -5,7 +5,9 @@ require_once __DIR__.'/shared/header.php';
 	<link rel="stylesheet" href="/css/home.css">
 
 	<div class="middle">
-        Boing Boing Boing
+        <div class="splash">
+	        <img src="../public/resourses/imgs/splash.jpg">
+        </div>
     </div>
     
 </main>

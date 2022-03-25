@@ -2,8 +2,9 @@
 
 namespace bp\source\Entities;
 
-use bp\source\Entities\User;
 use bp\source\Entities\Post;
+use bp\source\Entities\User;
+use bp\source\Entities\Project;
 use PDO;
 
 class Database
@@ -89,6 +90,37 @@ class Database
             'user' => $post->getUser()->getUsername(),
         ];
         $sql = "INSERT INTO post (title, content, mainImage, user) VALUES (:title, :content, :mainImage, :user)";
+        $stmt= $this->db->prepare($sql);
+        $stmt->execute($data);
+
+    }
+
+    public function getProjects(){
+        $projects = $this->db->query("SELECT * FROM project");
+        $projectsObj = array();
+        foreach ($projects->fetchAll() as $id => $project){
+            $projectsObj[$id] = new Project($project['id'], $project['title'], $project['content'], $project['mainImage']);
+        }
+        return $projectsObj;
+    }
+
+    public function getProject($id){
+        $projects = $this->db->query("SELECT * FROM project");
+        foreach ($projects->fetchAll() as $project){
+            if($project['id'] === $id){
+                return new Project($project['id'], $project['title'], $project['content'], $project['mainImage']);
+            }
+        }
+        return null;
+    }
+
+    public function setProject(Project $project){
+        $data = [
+            'title' => $project->getTitle(),
+            'content' => $project->getContent(),
+            'mainImage' => $project->getMainImage(),
+        ];
+        $sql = "INSERT INTO project (title, content, mainImage) VALUES (:title, :content, :mainImage)";
         $stmt= $this->db->prepare($sql);
         $stmt->execute($data);
 

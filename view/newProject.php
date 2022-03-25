@@ -2,6 +2,7 @@
 
 use bp\source\Model\LoginControl as LoginControl;
 use bp\source\Model\PostControl;
+use bp\source\Model\ProjectControl;
 
 require_once __DIR__.'/shared/header.php';
 ?>
@@ -50,8 +51,8 @@ require_once __DIR__.'/shared/header.php';
 </main>
 <?php
 if($_SERVER["REQUEST_METHOD"] == "POST"){
-	$create = new PostControl();
-	$status = $create->createNewPost();
+	$create = new ProjectControl();
+	$status = $create->createNewProject();
 	if($status == true){
 		header("Location: /home");
 	}else{

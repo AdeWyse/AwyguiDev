@@ -1,29 +1,29 @@
 <?php
 
-namespace bp\Entities;
+namespace bp\source\Entities;
 
 class Project
 {
-    private int $id;
+    private $id;
     private string $title;
     private string $content;
     private string $mainImage;
-    private string $images;
 
     /**
-     * @param int $id
+     * @param  $id
      * @param string $title
      * @param string $content
      * @param string $mainImage
-     * @param string $images
      */
-    public function __construct(int $id, string $title, string $content, string $mainImage, string $images)
+    public function __construct($id, string $title, string $content, string $mainImage)
     {
+        if($id != null){
+            $this->id = $id;
+        }
         $this->id = $id;
         $this->title = $title;
         $this->content = $content;
         $this->mainImage = $mainImage;
-        $this->images = $images;
     }
 
     /**
@@ -88,21 +88,5 @@ class Project
     public function setMainImage(string $mainImage): void
     {
         $this->mainImage = $mainImage;
-    }
-
-    /**
-     * @return string
-     */
-    public function getImages(): string
-    {
-        return $this->images;
-    }
-
-    /**
-     * @param string $images
-     */
-    public function setImages(string $images): void
-    {
-        $this->images = $images;
     }
 }

@@ -14,9 +14,9 @@ require_once __DIR__.'/shared/header.php';
 		<div class="card messageList">
 			<h2>Messages</h2>
 		</div>
-		<div class="card projectCreate">
+		<a class="card projectCreate" href="/newProject">
 			<h2>New project</h2>
-		</div>
+		</a>
 		<div class="card projectList">
 			<h2>Projects</h2>
 		</div>
