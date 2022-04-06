@@ -1,11 +1,12 @@
 .head{
     border-bottom-color: var(--lavander);
     border-bottom: 1em;
-    background-color: var(--white-Purple);
+    background-color: var(--purple);
     box-shadow:  0 10px 2px var(--lavander);
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     padding: 2em;
+    color: var(--white-Purple);
 }
 
 .title-Site{
@@ -17,8 +18,8 @@
 }
 
 .title-Site1{
-    color: var(--lavander);
-    background-color: var(--purple);
+    color: var(--purple);
+    background-color: var(--white-Purple);
     border-top-left-radius: 45px ;
     border-bottom-left-radius: 45px ;
     padding-left: 0.5em;
@@ -26,7 +27,7 @@
 }
 
 .title-Site2{
-    color: var(--purple);
+    color: var(--white-Purple);
     background-color: var(--lavander);
     border-top-right-radius: 45px ;
     border-bottom-right-radius: 45px ;
@@ -57,7 +58,6 @@ header span{
 
 .menu-links-list :hover{
     font-size: large;
-    color: var(--black);
 }
 
 .menu-socials-list{
@@ -66,4 +66,12 @@ header span{
     flex-direction: row;
     justify-content: space-around;
     font-size: small;
+}
+
+.menu-links-list a{
+    color: var(--white-Purple);
+}
+
+.menu-socials-list a{
+    color: var(--white-Purple);
 }

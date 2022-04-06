@@ -23,6 +23,7 @@ session_start();
 <header>
     <div class="head">
 	    <h1 class="title-Site"><a><span class="title-Site1">Awygui</span><span class="title-Site2">Dev</span></a></h1>
+
         <nav class="menu-links">
             <ul class="menu-links-list">
                 <li><a href="/home">Home</a></li>

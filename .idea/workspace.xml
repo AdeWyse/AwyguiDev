@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="182aa629-fc4a-4e2b-89b7-6ce5468f29aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/resourses/imgs/splash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/NewProject.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/ProjectControl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/configRoutes.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/configRoutes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/imgs/3mulheres.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/resourses/imgs/3mulheres.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/imgs/code.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/resourses/imgs/code.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/imgs/codeWithKeyboard.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/resourses/imgs/codeWithKeyboard.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/imgs/keyboard.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/resourses/imgs/keyboard.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/imgs/mulherPBDigitando.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/resourses/imgs/mulherPBDigitando.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/imgs/mulheresContribuindo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/resourses/imgs/mulheresContribuindo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/imgs/mulheresContribuindo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/resourses/imgs/mulheresContribuindo2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/imgs/workspace.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/resourses/imgs/workspace.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Project.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/management.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/management.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/newProject.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/newProject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/shared/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/shared/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +109,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.phpOptions" />
@@ -153,7 +141,9 @@
       <workItem from="1647951857816" duration="12596000" />
       <workItem from="1648034358754" duration="15988000" />
       <workItem from="1648120202460" duration="4250000" />
-      <workItem from="1648215095925" duration="7589000" />
+      <workItem from="1648215095925" duration="10787000" />
+      <workItem from="1648555865525" duration="594000" />
+      <workItem from="1649243575588" duration="16561000" />
     </task>
     <task id="LOCAL-00001" summary="Creating database connection and login basic verification.">
       <created>1647957629585</created>
@@ -183,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648122317845</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creating Project creation and basic database functions.">
+      <created>1648228504936</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648228504936</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +193,7 @@
     <MESSAGE value="Basic logged restriction." />
     <MESSAGE value="Login and logout redirection." />
     <MESSAGE value="Creating management and new post page. Posting post o database." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating management and new post page. Posting post o database." />
+    <MESSAGE value="Creating Project creation and basic database functions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Project creation and basic database functions." />
   </component>
 </project>
