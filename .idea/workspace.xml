@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="182aa629-fc4a-4e2b-89b7-6ce5468f29aa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/shared/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/shared/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +17,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -143,7 +145,13 @@
       <workItem from="1648120202460" duration="4250000" />
       <workItem from="1648215095925" duration="10787000" />
       <workItem from="1648555865525" duration="594000" />
-      <workItem from="1649243575588" duration="16561000" />
+      <workItem from="1649243575588" duration="18130000" />
+      <workItem from="1649329820333" duration="593000" />
+      <workItem from="1649350824373" duration="596000" />
+      <workItem from="1649416434010" duration="445000" />
+      <workItem from="1649418146151" duration="595000" />
+      <workItem from="1649421140418" duration="595000" />
+      <workItem from="1649954486713" duration="2610000" />
     </task>
     <task id="LOCAL-00001" summary="Creating database connection and login basic verification.">
       <created>1647957629585</created>
@@ -180,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648228504936</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Working on the h0me page.">
+      <created>1649266720440</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649266720441</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +209,7 @@
     <MESSAGE value="Login and logout redirection." />
     <MESSAGE value="Creating management and new post page. Posting post o database." />
     <MESSAGE value="Creating Project creation and basic database functions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Project creation and basic database functions." />
+    <MESSAGE value="Working on the h0me page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on the h0me page." />
   </component>
 </project>

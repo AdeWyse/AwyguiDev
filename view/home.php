@@ -27,10 +27,10 @@ require_once __DIR__.'/shared/header.php';
 			</div>
 			<div class="listAll"><a>All posts</a></div>
 			<div class="projects">
-				<div class="projectCard">
-					<div class="projectCard-Img"><img class="projectCard-Img-I" src="/resourses/imgs/3mulheres.png"></div>
-					<div class="projectCard-Title"><h2>Titulo teste</h2></div>
-				</div>
+					<div class="projectCard">
+						<div class="projectCard-Img"><img class="projectCard-Img-I" src="/resourses/imgs/3mulheres.png"></div>
+						<div class="projectCard-Title"><h2>Titulo teste</h2></div>
+					</div>
 				<div class="projectCard">
 					<div class="projectCard-Img"><img class="postCard-Img-I" src="/resourses/imgs/keyboard.png"></div>
 					<div class="projectCard-Title"><h2>Titulo teste</h2></div>

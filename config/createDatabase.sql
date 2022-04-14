@@ -29,4 +29,7 @@ CREATE TABLE  message
     email varchar(255),
     subject text,
     content text
-)
+);
+
+insert into user
+values('AwyguiAdmin', '$argon2i$v=19$m=65536,t=4,p=1$d1g2aHB6QVBUQndjdFYuVw$sFUr80cvofR4AUm3x+MGWIrRwMjBe7VDVlmBV8hJpU4', 'Awygui', 'admin');
