@@ -1,0 +1,34 @@
+.middle{
+    margin-top: 3em;
+}
+
+.login-title{
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.loginLabels{
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.loginInputField{
+    width: 50%;
+    height: 2em;
+}
+
+.loginInputItem{
+    margin: 0.5em;
+}
+
+.login{
+    align-self: center;
+    margin-left: 100%;
+    margin-right: 0;
+}

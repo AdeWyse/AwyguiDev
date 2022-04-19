@@ -1,0 +1,19 @@
+{
+  "name": "utfpr/pratica",
+  "autoload": {
+    "psr-4": {
+      "bp\\source\\": "src/",
+      "bp\\public\\": "public/"
+    }
+  },
+  "authors": [
+    {
+      "name": "AwyguiDev",
+      "email": "awyguidev@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "8.0.13.",
+    "components/jquery": "3.6.0"
+  }
+}

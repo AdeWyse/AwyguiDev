@@ -1,0 +1,63 @@
+:root{
+    --white: #FAFAFA;
+    --black: #130019;
+    --white-Purple: #F4EEF6;
+    --lavander: #A27BB8;
+    --purple: #480661;
+}
+
+body{
+    background-color: var(--white);
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--purple);
+}
+
+.middle{
+    margin-bottom: 5em;
+    margin-top: 5em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.btn{
+    background-color: var(--purple);
+    color: var(--white-Purple);
+    height: 3em;
+    width: 5em;
+    border: none;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: var(--lavander);
+    color: var(--purple);
+    cursor: pointer;
+}
+
+.dontDisplay{
+    display: none;
+}
+
+.display{
+    display: inline;
+}
+
+.card{
+    background-color: var(--white-Purple);
+}
+
+.new-title{
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    font-size: 3em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+}
+
+
