@@ -1,5 +1,6 @@
 <?php
-// php -S localhost:8000 -t C:\Users\UTFPR\Desktop\bp\public
+// php -S localhost:8002 -t C:\Users\UTFPR\Desktop\Awygui\AwyguiBlog\public
+// AwyguiAdmin 1234
 require_once __DIR__.'/../vendor/autoload.php';
 $routes = require __DIR__.'/../config/configRoutes.php';
 

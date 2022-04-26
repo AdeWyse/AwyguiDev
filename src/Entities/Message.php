@@ -1,6 +1,6 @@
 <?php
 
-namespace bp\Entities;
+namespace bp\source\Entities;
 
 class Message{
     private string $id;
@@ -16,9 +16,11 @@ class Message{
      * @param string $subject
      * @param string $content
      */
-    public function __construct(string $id, string $name, string $email, string $subject, string $content)
+    public function __construct($id, string $name, string $email, string $subject, string $content)
     {
-        $this->id = $id;
+        if($id != null){
+            $this->id = $id;
+        }
         $this->name = $name;
         $this->email = $email;
         $this->subject = $subject;

@@ -20,7 +20,7 @@ use bp\source\Model\LoginControl as LoginControl;
                 <input type="password"  id="password" name="password" class="loginInputField">
             </div>
 	        <div class="loginInputItem">
-		        <p class="dontDisplay" id="loginError">Username or password incorrect</p>
+		        <p class="dontDisplay"  id="loginError">Username or password incorrect</p>
 	        </div>
             <div class="loginInputField">
                 <button type="submit" class="btn login" value="Login">Login</button>
@@ -37,7 +37,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 	}else{
 		?>
 			<script>
-				$('#loginError').removeClass('.dontDisplay');
+				$('#loginError').removeClass('dontDisplay');
+				console.log('Poipoipoi');
 			</script>
 		<?php
 	}

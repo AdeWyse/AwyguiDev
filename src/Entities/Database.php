@@ -3,6 +3,7 @@
 namespace bp\source\Entities;
 
 use bp\source\Entities\Post;
+use bp\source\Entities\Message;
 use bp\source\Entities\User;
 use bp\source\Entities\Project;
 use PDO;
@@ -20,10 +21,10 @@ class Database
     }
 
     private function ConnectDatabase(){
-        $host = '127.0.0.1';
-        $database = 'awygui';
-        $user = 'root';
-        $password = '';
+        $host = 'sql5.freesqldatabase.com';
+        $database = 'sql5488168';
+        $user = 'sql5488168';
+        $password = 'd38eMRxMmJ';
         $port = '3306';
         $charset = 'utf8mb4';
 
@@ -91,7 +92,7 @@ class Database
         ];
         $sql = "INSERT INTO post (title, content, mainImage, user) VALUES (:title, :content, :mainImage, :user)";
         $stmt= $this->db->prepare($sql);
-        $stmt->execute($data);
+        return $stmt->execute($data);
 
     }
 
@@ -122,7 +123,39 @@ class Database
         ];
         $sql = "INSERT INTO project (title, content, mainImage) VALUES (:title, :content, :mainImage)";
         $stmt= $this->db->prepare($sql);
-        $stmt->execute($data);
+        return $stmt->execute($data);
+
+    }
+
+    public function getMessages(){
+        $messages = $this->db->query("SELECT * FROM message");
+        $messagesObj = array();
+        foreach ($messages->fetchAll() as $id => $message){
+            $messageObj[$id] = new Message($message['id'], $message['name'], $message['email'], $message['subject'], $message['content']);
+        }
+        return $messagesObj;
+    }
+
+    public function getMessage($id){
+        $messages = $this->db->query("SELECT * FROM message");
+        foreach ($messages->fetchAll() as $message){
+            if($message['id'] === $id){
+                return new Message($message['id'], $message['name'], $message['email'], $message['subject'], $message['content']);
+            }
+        }
+        return null;
+    }
+
+    public function setMessage(Message $message){
+        $data = [
+            'name' => $message->getName(),
+            'email' => $message->getEmail(),
+            'subject' => $message->getSubject(),
+            'content' => $message->getContent(),
+        ];
+        $sql = "INSERT INTO message (name, email, subject, content) VALUES (:name, :email, :subject, :content)";
+        $stmt= $this->db->prepare($sql);
+        return $stmt->execute($data);
 
     }
 }

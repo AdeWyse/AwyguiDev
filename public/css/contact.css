@@ -1,0 +1,36 @@
+.newMessageForm{
+    margin: 2em;
+    margin-top: 1em;
+    display:flex;
+    flex-direction: column;
+}
+
+.item{
+    margin: 0.5em;
+    margin-top: 0;
+
+    height: 1.5em;
+}
+
+.labels{
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+
+#title{
+    height: 2em;
+}
+
+.creteMessageBtn{
+    display: flex;
+    justify-content: right;
+}
+
+.btn{
+    margin: 1em;
+    margin-right: 0;
+}
+
+.textAreaInput{
+    background-color: var(--white);
+}

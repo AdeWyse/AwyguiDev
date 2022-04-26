@@ -31,7 +31,6 @@ namespace bp\public\Shared;
     </div>
 </footer>
 </body>
-<script src="/scripts/jquery.js"></script>
 <?php
 
 use bp\source\Model\LoginControl;

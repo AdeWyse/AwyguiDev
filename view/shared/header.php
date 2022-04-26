@@ -20,6 +20,7 @@ session_start();
 </head>
 
 <body>
+<script src="/scripts/jquery.js"></script>
 <header>
     <div class="head">
 	    <h1 class="title-Site"><a><span class="title-Site1">Awygui</span><span class="title-Site2">Dev</span></a></h1>
@@ -30,7 +31,7 @@ session_start();
                 <li><a href="/home">Posts</a></li>
 	            <li><a href="/home">About</a></li>
                 <li><a href="/home">Portifolio</a></li>
-	            <li><a href="/home">Contact</a></li>
+	            <li><a href="/contact">Contact</a></li>
             </ul>
         </nav>
 	    <nav class="menu-socials">
