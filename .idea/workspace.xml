@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="182aa629-fc4a-4e2b-89b7-6ce5468f29aa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/home.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/pdepend/pdepend" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/mustangostang/spyc" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/php-cs-fixer/diff" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/lapinator/ods-php-generator" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/endroid/qr-code" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/khanamiryan/qrcode-detector-decoder" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/phpmd/phpmd" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/piwik/device-detector" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/propel/propel" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/friendsofphp/php-cs-fixer" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/composer" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/components/jquery" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="26ZCNrqMhSGJP9HjDYh1H7Fe6Cl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.phpOptions" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\UTFPR\Desktop\bp\src\Model" />
+      <recent name="C:\Users\UTFPR\Desktop\bp\src\Controller" />
+      <recent name="C:\Users\UTFPR\Desktop\bp\view" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\UTFPR\Desktop\bp\public" />
+      <recent name="C:\Users\UTFPR\Desktop\bp\view" />
+      <recent name="C:\Users\UTFPR\Desktop\bp\public\scripts" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="182aa629-fc4a-4e2b-89b7-6ce5468f29aa" name="Changes" comment="" />
+      <created>1647621686114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647621686114</updated>
+      <workItem from="1647621687894" duration="4806000" />
+      <workItem from="1647861010558" duration="19169000" />
+      <workItem from="1647947347540" duration="4326000" />
+      <workItem from="1647951857816" duration="12596000" />
+      <workItem from="1648034358754" duration="15988000" />
+      <workItem from="1648120202460" duration="4250000" />
+      <workItem from="1648215095925" duration="10787000" />
+      <workItem from="1648555865525" duration="594000" />
+      <workItem from="1649243575588" duration="18130000" />
+      <workItem from="1649329820333" duration="593000" />
+      <workItem from="1649350824373" duration="596000" />
+      <workItem from="1649416434010" duration="445000" />
+      <workItem from="1649418146151" duration="595000" />
+      <workItem from="1649421140418" duration="595000" />
+      <workItem from="1649954486713" duration="2610000" />
+    </task>
+    <task id="LOCAL-00001" summary="Creating database connection and login basic verification.">
+      <created>1647957629585</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647957629585</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Basic logged restriction.">
+      <created>1647971024330</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647971024330</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Login and logout redirection.">
+      <created>1647972304834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647972304834</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Creating management and new post page. Posting post o database.">
+      <created>1648122317845</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648122317845</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Creating Project creation and basic database functions.">
+      <created>1648228504936</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648228504936</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Working on the h0me page.">
+      <created>1649266720440</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649266720441</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Creating database connection and login basic verification." />
+    <MESSAGE value="Basic logged restriction." />
+    <MESSAGE value="Login and logout redirection." />
+    <MESSAGE value="Creating management and new post page. Posting post o database." />
+    <MESSAGE value="Creating Project creation and basic database functions." />
+    <MESSAGE value="Working on the h0me page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on the h0me page." />
+  </component>
+</project>

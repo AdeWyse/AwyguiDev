@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/pdepend/pdepend" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/mustangostang/spyc" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/php-cs-fixer/diff" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/lapinator/ods-php-generator" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/endroid/qr-code" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/khanamiryan/qrcode-detector-decoder" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/phpmd/phpmd" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/piwik/device-detector" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/propel/propel" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/friendsofphp/php-cs-fixer" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/composer" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/../../../../intranet/dist/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/components/jquery" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>

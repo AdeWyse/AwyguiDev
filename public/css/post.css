@@ -1,0 +1,23 @@
+.post{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 80%;
+    margin-rigth: 15%;
+    margin-left: 5%;
+}
+
+.post-Img{
+    margin-bottom: 1em;
+}
+
+.post-Title{
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.post-Content{
+    font-family: Verdana;
+    margin-top: 1em;
+    line-height: 1.3em;
+}
