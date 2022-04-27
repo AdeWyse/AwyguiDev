@@ -38,8 +38,7 @@ use bp\source\Model\LoginControl;
 if($_SESSION != null){
 		if($_SESSION['session'] == '1'){
 			?>
-			<script>
-				console.log('here');
+			<script
 				$('#linkLog').addClass('dontDisplay');
 				$('#linkMan'). removeClass('dontDisplay');
 				$('#logout'). removeClass('dontDisplay');

@@ -4,12 +4,12 @@ require_once __DIR__.'/shared/header.php';
 <main>
 	<link rel="stylesheet" href="/css/home.css">
 
-	<div class="splash">
-		<img class="splashImage" src="/resourses/imgs/splash.jpg">
-		<div class="splashLine">
-			<p class="splashText">Fun in Game and Web Development</p>
-		</div>
-	</div>
+<!--	<div class="splash">-->
+<!--		<img class="splashImage" src="/resourses/imgs/splash.jpg">-->
+<!--		<div class="splashLine">-->
+<!--			<p class="splashText">Fun in Game and Web Development</p>-->
+<!--		</div>-->
+<!--	</div>-->
 	<div class="boxDivision">
 		<div class="middle">
 			<div class="posts">

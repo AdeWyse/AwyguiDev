@@ -26,58 +26,9 @@
  opacity: 100%;!important;
 }
 
-.boxDivision{
- display: flex;
- flex-direction: row;
- margin-bottom: 0;
-}
-
-.middle{
- position: relative;
- bottom: 5em;
- display: flex;
- flex-direction: column;
- margin: 2em;
- margin-top: 0;
-}
-
-.posts{
- display: inline;
-}
-
-.postCard{
- display:flex;
- flex-direction: column;
- background-color: var(--white-Purple);
- margin-bottom: 2em;
- box-shadow:  0 5px 5px var(--purple);
-}
-
 .postCard:hover{
  padding: 1em;
  cursor: pointer;
-}
-
-.postCard-Img-I{
- height: 20em;
- object-fit: cover;
- width: 100%;
-}
-
-.postCard-Title{
- text-align: center;
-  font-size: 2.5em;
- font-weight: bold;
- margin: 0.3em;
- margin-top: 0.1em;
- font-family: 'Quantico', sans-serif;
-}
-
-.postCard-Preview{
- margin-right: 1em;
- margin-left: 1em;
- margin-bottom: 1em;
- line-height: 1.5em;
 }
 
 .projects{
@@ -130,12 +81,11 @@
 }
 
 .aboutCard{
- position: relative;
- bottom: 5em;
  background-color: var(--white-Purple);
  padding: 1em;
  margin-left: 0;
  margin-right: 0.5em;
+ margin-top: 2em;
  line-height: 1.5em;
  height: 14em;
 }

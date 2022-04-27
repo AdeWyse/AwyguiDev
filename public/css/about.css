@@ -1,0 +1,30 @@
+.about {
+    margin: 2em;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+.about-Title{
+    margin-bottom: 0.5em;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.about-Grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2em;
+}
+
+.about-Img{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.about-Content{
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+;
+}

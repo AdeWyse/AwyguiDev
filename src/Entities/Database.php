@@ -80,7 +80,7 @@ class Database
                 return new Post($post['id'], $post['title'], $post['content'], $post['mainImage'], $post['user']);;
             }
         }
-        return null;
+        return new Post($id, "The post doesn't exist", 'Are you sure you are on the right place?', null, null);
     }
 
     public function setPost(Post $post){
@@ -88,7 +88,7 @@ class Database
             'title' => $post->getTitle(),
             'content' => $post->getContent(),
             'mainImage' => $post->getMainImage(),
-            'user' => $post->getUser()->getUsername(),
+            'user' => $post->getUser(),
         ];
         $sql = "INSERT INTO post (title, content, mainImage, user) VALUES (:title, :content, :mainImage, :user)";
         $stmt= $this->db->prepare($sql);

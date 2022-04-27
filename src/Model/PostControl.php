@@ -29,18 +29,22 @@ class PostControl
         $title =  $_POST['title'];
         $content = $_POST['content'];
         $mainImage = $_POST['mainImage'];
-        $userName = $_SESSION['username'];
-        $user = $this->db->getUser($userName);
+        $user = $_SESSION['username'];
 
         $post = new Post(null, $title, $content, $mainImage, $user);
         return $post;
     }
 
-    public function getPostFromDb(){
+    public function getPostFromDb(int $idPost): Post{
+        $post = $this->db->getPost($idPost);
 
+        return $this->createJSON($post);
     }
 
     public function getPostsFromDb(){
+        $posts = $this->db->getPosts();
+
+        return $this->createJSON($posts);
 
     }
 
@@ -52,5 +56,9 @@ class PostControl
             return false;
         }
 
+    }
+
+    public function createJSON($object){
+        return json_encode($object);
     }
 }

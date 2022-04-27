@@ -60,4 +60,52 @@ a{
     padding-left: 0.5em;
 }
 
+.boxDivision{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    margin-top: 2em;
+}
+
+.posts{
+    display: inline;
+}
+
+.postCard{
+    display:flex;
+    flex-direction: column;
+    background-color: var(--white-Purple);
+    margin-bottom: 2em;
+    box-shadow:  0 5px 5px var(--purple);
+}
+
+.postCard-Img-I{
+    height: 20em;
+    object-fit: cover;
+    width: 100%;
+}
+
+.postCard-Title{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0.3em;
+    margin-top: 0.1em;
+    font-family: 'Quantico', sans-serif;
+}
+
+.postCard-Preview{
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    font-family: Verdana;
+}
+
 

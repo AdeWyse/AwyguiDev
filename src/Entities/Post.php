@@ -2,27 +2,33 @@
  namespace bp\source\Entities;
 
  class Post{
-     private int $id;
-     private string $title;
-     private string $content;
-     private string $mainImage;
-     private User $user;
+     public int $id;
+     public string $title;
+     public string $content;
+     public string $mainImage;
+     public string $user;
      /**
       * @param int $id
       * @param string $title
       * @param string $content
       * @param string $mainImage
-      * @param User $user
+      * @param string $user
       */
-     public function __construct($id, string $title, string $content, string $mainImage, User $user)
+     public function __construct($id, string $title, string $content,  $mainImage, $user)
      {
          if($id != null){
              $this->id = $id;
          }
          $this->title = $title;
          $this->content = $content;
-         $this->mainImage = $mainImage;
-         $this->user = $user;
+         if($user != null){
+             $this->mainImage = $mainImage;
+         }
+         if($user != null){
+             $this->user = $user;
+         }else{
+             $this->user = $_SESSION['name'];
+         }
      }
 
      /**
@@ -92,7 +98,7 @@
      /**
       * @return string
       */
-     public function getUser(): User
+     public function getUser(): string
      {
          return $this->user;
      }
