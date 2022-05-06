@@ -1,6 +1,15 @@
 <?php
 namespace bp\public\Shared;
 session_start();
+
+use bp\source\Model\PostControl;
+use bp\source\Entities\Post;
+$pg = $_GET['pg'];
+$postControl = new PostControl();
+$postsResponse = $postControl->getPostsPgFromDb($pg);
+$posts = $postsResponse[0];
+$totalPages = $postsResponse[1];
+
 ?>
 <!DOCTYPE html>
 
@@ -28,7 +37,7 @@ session_start();
         <nav class="menu-links">
             <ul class="menu-links-list">
                 <li><a href="/home">Home</a></li>
-                <li><a href="/posts">Posts</a></li>
+                <li><a href="/posts?pg=1&tp=<?php echo $totalPages;?>">Posts</a></li>
 	            <li><a href="/about">About</a></li>
                 <li><a href="/home">Portifolio</a></li>
 	            <li><a href="/contact">Contact</a></li>

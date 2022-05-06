@@ -36,15 +36,19 @@ class PostControl
     }
 
     public function getPostFromDb(int $idPost): Post{
-        $post = $this->db->getPost($idPost);
-
-        return $this->createJSON($post);
+        return $this->db->getPost($idPost);
     }
 
     public function getPostsFromDb(){
-        $posts = $this->db->getPosts();
 
-        return $this->createJSON($posts);
+        return $this->db->getPosts();
+
+    }
+
+    public function getPostsPgFromDb($pg): Array{
+        $posts = $this->db->getPostsPg($pg);
+
+        return $posts = $this->db->getPostsPg($pg);
 
     }
 

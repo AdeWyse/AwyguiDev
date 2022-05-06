@@ -1,0 +1,74 @@
+.card{
+    width: 80%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.pageControl{
+    display: flex;
+   width: 20%;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.pgItem{
+    height: 1.5em;
+    width: 3em;
+    padding: 0.5em;
+    text-align: center;
+    background-color: var(--lavander);
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.thisPage{
+    height: 1.5em;
+    width: 3em;
+    padding: 0.5em;
+    text-align: center;
+    background-color: var(--purple);
+    color: var(--white);
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.pageControl li :hover{
+    background-color: var(--purple);
+    color: var(--white)!important;
+    cursor: pointer;
+
+}
+
+.buttonItem{
+    height: 1.5em;
+    width: 3em;
+    padding: 0.5em;
+    padding-right: 0.1em;
+    padding-left: 0.1em;
+    text-align: center;
+    background-color: var(--lavander);
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.buttonItem :hover{
+    background-color: var(--purple);
+    color: var(--white)!important;
+    cursor: pointer;
+}
+
+.buttonPg{
+    background-color: transparent;
+    height: 1.5em;
+    width: 3em;
+    border: none;
+}
+
+.buttonPg :hover{
+    background-color: transparent;
+    color: var(--white);
+    cursor: pointer;
+}
+

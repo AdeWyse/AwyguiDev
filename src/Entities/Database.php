@@ -64,13 +64,30 @@ class Database
         return null;
     }
 
-    public function getPosts(){
+    public function getPosts(): Array{
         $posts = $this->db->query("SELECT * FROM post");
         $postsObj = array();
         foreach ($posts->fetchAll() as $id => $post){
             $postsObj[$id] = new Post($post['id'], $post['title'], $post['content'], $post['mainImage'], $post['user']);
         }
         return $postsObj;
+    }
+
+    public function getPostsPg(int $pg): Array{
+        $size = count($this->getPosts());
+        $numPg = 2;
+        $toGet = $pg * $numPg;
+        $toGetLimit = $toGet + $numPg;
+        $sql = "SELECT * FROM post  WHERE id >= ? AND id < ?";
+        $stmt = $this->db->prepare($sql);
+        $stmt->execute([$toGet, $toGetLimit]);
+        $posts = $stmt;
+        $postsObj = array();
+        foreach ($posts->fetchAll() as $id => $post){
+            $postsObj[$id] = new Post($post['id'], $post['title'], $post['content'], $post['mainImage'], $post['user']);
+        }
+        $response = [$postsObj, $size/$numPg];
+        return $response;
     }
 
     public function getPost($id){
